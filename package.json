@@ -33,7 +33,13 @@
         "bootstrap": "4.5.3",
         "jquery": "^3.5.1",
         "jquery.easing": "^1.4.1",
-        "simple-line-icons": "2.5.5"
+        "simple-line-icons": "2.5.5",
+        "body-parser": "^1.18.2",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "mongodb": "^3.6.0",
+        "mongoose": "^4.11.13",
+        "socket.io": "^2.0.3"
     },
     "devDependencies": {
         "browser-sync": "2.26.13",
