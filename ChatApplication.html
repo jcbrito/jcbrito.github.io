@@ -37,13 +37,13 @@
     }
 
     function getMessages() {
-        $.get('http://cosc4427app-env.eba-xnta4sr2.us-east-1.elasticbeanstalk.com/messages', (data) => {
+        $.get('https://jcbrito.github.io/messages', (data) => {
             data.forEach(addMessage);
         })
     }
     
     function postMessage(message) {
-        $.post('http://cosc4427app-env.eba-xnta4sr2.us-east-1.elasticbeanstalk.com/messages', message)
+        $.post('https://jcbrito.github.io/messages', message)
     }
     
 </script>
