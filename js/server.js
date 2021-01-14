@@ -11,7 +11,11 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 const port = process.env.PORT || 8080
 
+<<<<<<< HEAD
 var dbUrl = process.env.DBURL || 'mongodb+srv://jbrito:Z3-nedation@learning-node.9we9w.mongodb.net/<dbname>?retryWrites=true&w=majority'//use your own db url here
+=======
+var dbUrl = process.env.DBURL //use your own db url here
+>>>>>>> parent of 9b4847c... Update server.js
 
 var Message = mongoose.model('Message', {
     name: String,
